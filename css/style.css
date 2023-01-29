@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    background-image: url("../img/fondo_01.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.title{
+    position: relative;
+}
+
+.title > h2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.logo{
+    background-color: aliceblue;
+    position: absolute;
+    top: -35px;
+    right: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.menu{
+    display: inline-block;
+    width: 20%; 
+}
+
+.menu > a{
+    display: block;
+}
+
+.contenido{
+    display: inline-block;
+    width: 79%;
+}
