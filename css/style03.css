@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 3px;    
+}
+
+.fondo{
+    background-image: url("../img/fondo_01.jpg");
+    background-size: 200px 150px;
+    background-position: center;
+    background-size: repeat;
+    height: 150px;
+}
+
+.title > h2 {
+    text-align: center;
+    position: sticky;
+    margin-top: 43px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+}
+
+.logo {
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px;
+    top: 140px;
+    left: 50%;
+    margin-left: -60px;
+    border-radius: 50%;
+}
+
+.logo > img {
+    background-color: aliceblue;
+    
+}
+
+.menu {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+#contact{
+    position: absolute;
+    left: ;
+}
+.menu > a{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    width: 75px;
+    background-color: rgb(0, 0, 80);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.menu >a:hover{
+    background-color: darkgreen;
+}
+
+.costado{
+    display: inline-block;
+    width: 20%;
+    background-image: url("../img/hockey_1.jpg");
+    background-size: 100%;
+    background-repeat:repeat-y;
+    height: 200px;
+}
+
+.contenido{
+    display: inline-block;    
+    width: 79%;
+}
