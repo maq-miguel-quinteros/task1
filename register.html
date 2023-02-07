@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <!-- <link rel="stylesheet" href="./css/style01.css">-->
+    <!-- <link rel="stylesheet" href="./css/style02.css"> -->
+    <!-- <link rel="stylesheet" href="./css/style03.css"> -->
+    <link rel="stylesheet" href="./css/style04.css">
+    <title>Mighty Ducks</title>
+</head>
+
+<body>
+    <header>
+            <h1>Mighty Ducks Hockey League</h1>
+        <picture>
+            <img src="./img/logo.png" width="100" height="100" alt="Logo of Mighty Ducks Hockey League">
+        </picture>
+        <h2>Upcoming Events</h2>
+    </header>
+    <nav>
+        <div>
+            <a href="index.html">Home</a><a href="rules.html">Rules&Policies</a><a href="game_info.html">Game Info</a>
+        </div>
+        <div>
+            <a href="#">Register</a>
+            <a href="about.html">About</a><a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+    <main>
+        <aside>
+        </aside>
+        <div>
+            <section>
+                <article>
+                    <h3>Registration Form</h3>
+                    <form action="show_data.html" method="get">
+                        
+                        <fieldset>
+                            <legend>Player Info</legend>
+                            <label for="name">Player's First Name: </label>
+                            <input type="text" id="name" name="name">
+                            <label for="last">Last Name:</label>
+                            <input type="text" id="last" name="last">
+                            <label for="address">Street Address:</label>
+                            <input type="text" id="address" name="address">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city">
+                            <label for="zip">Zip Code:</label>
+                            <input type="number" id="zip" name="zip">
+                            <label for="birth">Birth Date (mm/dd/yyyy):</label>
+                            <input type="date" id="birth" name="birth">
+
+                            <label>Gender:</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="gender">Female</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="gender">Male</label>
+
+                            <label>Grade:</label>
+                            <input type="radio" id="pre-school" name="grade" value="pre-school">
+                            <label for="grade">Pre-School</label>
+                            <input type="radio" id="1st" name="grade" value="1st">
+                            <label for="grade">1st</label>
+                            <input type="radio" id="2st" name="grade" value="2st">
+                            <label for="grade">2st</label>
+                            <input type="radio" id="3st" name="grade" value="3st">
+                            <label for="grade">3st</label>
+                            <input type="radio" id="4st" name="grade" value="4st">
+                            <label for="grade">4st</label>
+                            <input type="radio" id="5st" name="grade" value="5st">
+                            <label for="grade">5st</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Which elementary school do you live near</legend>
+                            <select name="school" id="school">
+                                <option value="" disabled selected>Select a school</option>
+                                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                <option value="Greenbay">Greenbay</option>
+                                <option value="Howard A Yeager">Howard A Yeager</option>
+                                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                                <option value="North elementary">North elementary</option>
+                                <option value="South elementary">South elementary</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend>What position(s) do you normally play? (check all that apply)</legend>
+                            <input type="checkbox" id="forward" name="forward" value="forward">
+                            <label for="forward">Forward</label>
+                            <input type="checkbox" id="defense" name="defense" value="defense">
+                            <label for="defense">Defense</label>
+                            <input type="checkbox" id="midfield" name="midfield" value="midfield">
+                            <label for="midfield">Midfield</label>
+                            <input type="checkbox" id="Goalkeeper" name="Goalkeeper" value="Goalkeeper">
+                            <label for="Goalkeeper">Goalkeeper</label>
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </div>
+
+    </main>
+</body>
+
+</html>
